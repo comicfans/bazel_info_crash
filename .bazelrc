@@ -1,0 +1,2 @@
+# Apparent name of a repo created by use_repo_rule in the root MODULE.bazel.
+build --host_platform=@my_host//:host

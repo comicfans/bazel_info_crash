@@ -1,0 +1,5 @@
+module(name = "info_host_platform_repro")
+
+host_repo = use_repo_rule("//:host_repo.bzl", "host_repo")
+
+host_repo(name = "my_host")
